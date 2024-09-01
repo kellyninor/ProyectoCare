@@ -23,4 +23,4 @@
 | **nindigentes** | Número de personas en hogares clasificados en pobreza extrema.                                                                                              | `int`                 |
 | **fex_c**       | Factor de expansión anualizado.                                                                                                                             | `float`               |
 
-**Fuente:** [Medición de Pobreza Monetaria y Desigualdad 2023](https://www.dane.gov.co) - DANE
+**Fuente:** [Medición de Pobreza Monetaria y Desigualdad 2023](https://microdatos.dane.gov.co/index.php/catalog/835/get-microdata) - DANE

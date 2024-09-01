@@ -120,8 +120,18 @@
 | **cclasnr8**    | Estado de iof2. 1: faltante, 0: observado. Identificador de casos con información faltante en iof3 (ayudas)                                                 | `int`          |
 | **cclasnr11**   | Estado de iof3. 1: faltante, 0: observado. Identificador de casos con información faltante en iof6 (arriendos)                                              | `int`          |
 | **impaes**      | Ingreso monetario de la primera actividad imputado (sólo para faltantes, extremos o ceros inconsistentes)                                                   | `int`          |
-| ****            |                                                      | `int`          |
-| ****   |                                              | `int`          |
-| ****   |                                              | `int`          |
-| ****   |                                              | `int`          |
-| ****   |                                              | `int`          |
+| **isaes**       | Ingreso monetario de la segunda actividad imputado (sólo para faltantes o extremos)                                                                         | `int`          |
+| **iees**        | Ingreso en especie imputado (sólo para faltantes o extremos)                                                                                                | `int`          |
+| **imdies**      | Ingreso por trabajo de desocupados e inactivos imputado (sólo para faltantes o extremos)                                                                    | `int`          |
+| **iof1es**      | Ingreso por intereses y dividendos imputado (sólo para faltantes o extremos)                                                                                | `int`          |
+| **iof2es**      | Ingreso por jubilaciones y pensiones imputado (sólo para faltantes o extremos)                                                                              | `int`          |
+| **iof3hes**     | Ingreso por ayudas de hogares, imputado (sólo para faltantes o extremos)                                                                                    | `int`          |
+| **iof3ies**     | Ingreso por ayudas de instituciones, imputado (sólo para faltantes o extremos)                                                                              | `int`          |
+| **iof6es**      | Ingreso por arriendos imputado (sólo para faltantes o extremos)                                                                                             | `int`          |
+| **ingtotob**    | Ingreso total observado: Ingreso total observado por persona que resulta de sumar los ingresos percibidos en las siguientes fuentes: ingreso monetario primera actividad (impa), ingreso segunda actividad (isa), ingreso en especie (ie), ingreso monetario desocupados e inactivos (imdi) e ingresos provenientes de otras fuentes no laborales (iof) (intereses, pensiones, ayudas,
+cesantias, arriendos y otros) .                                                                                                                                                 | `float`        |
+| **ingtotes**    | Ingreso total imputado: Ingreso total por persona que resulta de sumar cada una de las fuentes de ingresos imputadas a los registros faltantes.             | `int`          |
+| **ingtot**      | Ingreso total: Ingreso total por persona que resulta de sumar cada una de las fuentes de ingresos tanto observadas como imputadas.                          | `float`        |
+| **fex_c**       | Factor de expansión anual                                                                                                                                   | `int`          |
+
+**Fuente:** [Medición de Pobreza Monetaria y Desigualdad 2023](https://microdatos.dane.gov.co/index.php/catalog/835/get-microdata) - DANE
