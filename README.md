@@ -1,18 +1,18 @@
 # Proyecto de Segmentación de Hogares para Intervenciones Personalizadas
 
-Este repositorio contiene el código, datos y resultados preliminares de un proyecto diseñado para segmentar hogares en Colombia y permitir la creación de intervenciones más personalizadas. Basado en el Estudio de Medición de Pobreza Monetaria y Desigualdad (DANE, 2023), el proyecto utilizará técnicas de clustering para identificar patrones en pobreza y desigualdad. La iniciativa culminará en el desarrollo de una herramienta analítica que proporcionará a CARE una interfaz intuitiva para explorar los datos segmentados, visualizar segmentos de hogares e individuos, analizar sus características específicas y de manera que CARE pueda generar recomendaciones basadas en datos para diseñar intervenciones personalizadas. La herramienta incluirá funcionalidades para la generación de informes en función de los patrones identificados en los datos.
+Este repositorio contiene el código, datos y resultados preliminares de un proyecto diseñado para segmentar hogares en Colombia a partir [Estudio de Medición de Pobreza Monetaria y Desigualdad](https://microdatos.dane.gov.co/index.php/catalog/835/get-microdata) (DANE, 2023). En su desarrollo se utilizarán técnicas de clustering para identificar patrones en pobreza y desigualdad. La iniciativa culminará en el desarrollo de una herramienta analítica que proporcionará a CARE, una ONG internacional dedicada a combatir la pobreza y la injusticia social en Colombia, una interfaz intuitiva para explorar los datos segmentados, visualizar segmentos de hogares e individuos. A partir de esta herramienta CARE podrá diseñar intervenciones personalizadas. La herramienta incluirá funcionalidades para la generación de informes en función de los patrones identificados en los datos.
 
 ## Estructura del Repositorio
 
 El repositorio está organizado en las siguientes carpetas:
 
-- **`data/`**: Contiene los archivos de datos utilizados en el proyecto. Incluye `df_hogares` y `df_personas` con información económica y social de los hogares e individuos.
-- **`códe/`**: Contiene los scripts y notebooks que se utilizarán para el procesamiento de datos, la aplicación de algoritmos de clustering y el desarrollo de la herramienta analítica.
-- **`docs/`**: Contiene la documentación del proyecto, incluyendo el informe final y cualquier otro documento relevante para la entrega del proyecto.
+- **`data/`**: Contiene los archivos de datos utilizados en el proyecto. Incluye [`df_hogares`](https://github.com/kellyninor/ProyectoCare/blob/main/data/raw/Hogares.csv) y [`df_personas`](https://github.com/kellyninor/ProyectoCare/blob/main/data/raw/Personas.csv) con información económica y social de los hogares e individuos.
+- **`code/`**: Contiene los scripts y notebooks que se utilizarán para el procesamiento de datos, la aplicación de algoritmos de clustering y el desarrollo de la herramienta analítica.
+- **`docs/`**: Contiene la documentación del proyecto, incluyendo el [primer informe](https://github.com/kellyninor/ProyectoCare/blob/main/docs/reports/Proyecto%20ANS%20-%20Primera%20entrega.pdf) y cualquier otro documento relevante para la entrega del proyecto.
 
 ## Preprocesamiento de Datos
 
-El preprocesamiento de datos se realiza a través de un Jupyter Notebook que se encuentra en la carpeta `códe/` llamado `analisis_data.ipynb`. En este notebook, se lleva a cabo el proceso de:
+El preprocesamiento de datos se realiza a través de un Jupyter Notebook que se encuentra en la carpeta `códe/` llamado [`analisis_data.ipynb`](https://github.com/kellyninor/ProyectoCare/blob/main/code/analisis_data.ipynb). En este notebook, se lleva a cabo el proceso de:
 
 - **Carga de Datos**: Importación de los archivos `df_hogares` y `df_personas`.
 - **Preprocesamiento**: Limpieza de datos y manejo de valores nulos.
