@@ -1,0 +1,7 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0  # Cambia a la versión que desees
+    hooks:
+      - id: trailing-whitespace
+      # Elimina o comenta el siguiente hook
+      # - id: end-of-file-fix
