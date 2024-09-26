@@ -26,8 +26,8 @@ Este notebook proporciona documentación detallada y explicaciones sobre las té
 La preparación de los datos, la selección de Caracteristicas y la aplicación de los algorítmos de clustering puede consultarse con detalle en el notebook [`segmentacion`](https://github.com/kellyninor/ProyectoCare/blob/main/code/segmentacion.ipynb). Los procedimiento estan documentados y cada uno de los resultados obtenidos incluyen un apartado para Interpretación y Conclusiones. Puedes utilizar este notebook para replicar los análisis y comprender las decisiones tomadas en cada etapa.
 
 Finalmente el **Dashboard de Segmentación de Hogares** desarrollado puede consultarse aqui:
-- [Dasboard PDF]()
-- [Archivo binario .pbix]()
+- [Dasboard PDF](https://github.com/kellyninor/ProyectoCare/blob/main/docs/reports/Segmentacion%20Clusters.pdf)
+- [Archivo binario .pbix](https://github.com/kellyninor/ProyectoCare/blob/main/data/dashboard/Segmentacion%20Clusters.pbix)
 
 ## Cómo Ejecutar el Código
 
