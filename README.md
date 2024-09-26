@@ -9,10 +9,10 @@ El repositorio está organizado en las siguientes carpetas:
 - **`data/`**: Contiene tres carpetas con la información del proyecto.
    +  `raw`: Contiene los archivos originales de la fuente del DANE sobre la cual se construyeron dos dataframes: [`df_hogares`](https://github.com/kellyninor/ProyectoCare/blob/main/data/raw/Hogares.csv) y [`df_personas`](https://github.com/kellyninor/ProyectoCare/blob/main/data/raw/Personas.csv) con información económica y social de los hogares e individuos.
    + `clean`: Incluye la data depurada y consolidada luego de aplicar el Analisi de Datos y Preprocesamiento de la información: [`df_pobreza_desigualdad`](https://github.com/kellyninor/ProyectoCare/blob/main/data/clean/pobreza_desigualdad.csv)
-   + `cluster`: Guarda los resultados de la ejecución de cada algoritmo de clustering probado.
+   + [`cluster`](https://github.com/kellyninor/ProyectoCare/tree/main/data/clusters): Guarda los resultados de la ejecución de cada algoritmo de clustering probado.
 
 - **`code/`**: Contiene los scripts y notebooks que se utilizarán para el procesamiento de datos y la aplicación de algoritmos de clustering.
-- **`docs/`**: Contiene la [documentación final del proyecto] y diccionarios de los conjuntos de datos empleados.
+- **`docs/`**: Contiene la [documentación final del proyecto](https://github.com/kellyninor/ProyectoCare/blob/main/docs/reports/Informe%20Final%20Proyecto.pdf) y diccionarios de los conjuntos de datos empleados.
 
 ## Preprocesamiento de Datos
 
@@ -23,7 +23,7 @@ El preprocesamiento de datos se realizó a través de un Jupyter Notebook que se
 - **Análisis Estadístico**: Exploración de estadísticas descriptivas y visualización de datos para entender mejor las características de los DataFrames.
 Este notebook proporciona documentación detallada y explicaciones sobre las técnicas empleadas para la limpieza de datos y el manejo de valores nulos.
 
-La preparación de los datos, la selección de Caracteristicas y la aplicación de los algorítmos de clustering puede consultarse con detalle en el notebook [`segmentacion`](https://github.com/kellyninor/ProyectoCare/blob/main/code/segmentacion.ipynb). Los procedimiento estan documentados y cada uno de los resultados obtenidos incluyen un apartado para Interpretación y Conclusiones. Puedes utilizar este notebook para replicar los análisis y comprender las decisiones tomadas en cada etapa.
+La preparación de los datos, la selección de Caracteristicas y la aplicación de los algorítmos de clustering puede consultarse con detalle en el notebook [`segmentacion.ipynb`](https://github.com/kellyninor/ProyectoCare/blob/main/code/segmentacion.ipynb). Los procedimiento estan documentados y cada uno de los resultados obtenidos incluyen un apartado para Interpretación y Conclusiones. Puedes utilizar este notebook para replicar los análisis y comprender las decisiones tomadas en cada etapa.
 
 Finalmente el **Dashboard de Segmentación de Hogares** desarrollado puede consultarse aqui:
 - [Dasboard PDF](https://github.com/kellyninor/ProyectoCare/blob/main/docs/reports/Segmentacion%20Clusters.pdf)
